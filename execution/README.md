@@ -17,6 +17,10 @@ Finally, we start gtfsrdb for each container to collect the tripupdates provided
    ```
    Use your GitHub credentials or a personal access token with the `read:packages` scope.
 3. Python needs to be installed with python-venv.
+4. Clone our modified transitclockDocker repository:
+   ```bash
+   git clone https://github.com/SWT-Forschungsprojekt/transitclockDocker.git
+   ```
 
 ## Experiment 1
 Can be started with:
