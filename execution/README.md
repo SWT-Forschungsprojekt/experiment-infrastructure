@@ -43,3 +43,10 @@ The monitoring CSV files are stored in the folder `monitors`.
 The files contains the experiment number and the container name in the filename, e.g. `docker_stats_2-Arriva-tup.csv`.
 The SQLite databases containing the data collected by gtfsrdb for origin, tup and transotime are stored in the folder `EXPERIMENT_NUMBER_experiment/FEED_NAME/`.
 The realtime-metrics script can be used to extract the metrics for these databases.
+
+## Experiment 3
+Can be started with:
+```bash
+./experiment_3.sh
+```
+But first go into the `experiment_3.sh` file and edit some parameters for your needs, such as FEED_NAME, GTFS_URL, TRIP_UPDATES_URL, VEHICLE_POSITION_URL, MIN_LATITUDE, MAX_LATITUDE, MIN_LONGITUDE, MAX_LONGITUDE
