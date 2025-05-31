@@ -1,0 +1,3 @@
+[submodule "execution/transitclockDocker"]
+	path = execution/transitclockDocker
+	url = https://github.com/SWT-Forschungsprojekt/transitclockDocker.git
